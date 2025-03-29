@@ -9,7 +9,7 @@ import joblib
 import numpy as np
 
 nlp = spacy.load("en_core_web_md", disable=["tagger", "parser", "ner"])
-host = "http://localhost:8000"
+host = "http://172.18.4.158:8000"
 post_url = f"{host}/submit-word"
 get_url = f"{host}/get-word"
 status_url = f"{host}/status"
