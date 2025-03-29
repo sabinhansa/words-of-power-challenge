@@ -1,13 +1,15 @@
+import warnings
+warnings.simplefilter("ignore")
+
 import spacy
 import requests
 import time
 import json
 import joblib
 import numpy as np
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
 nlp = spacy.load("en_core_web_md", disable=["tagger", "parser", "ner"])
-host = "http://172.18.4.158:8000"
+host = "http://localhost:8000"
 post_url = f"{host}/submit-word"
 get_url = f"{host}/get-word"
 status_url = f"{host}/status"
@@ -29,7 +31,7 @@ def predict_cost(system_word):
     predicted_cost = model.predict(vec)[0]
     return max(predicted_cost, 0)
 
-def choose_word(system_word, lambda_sim=1.0):
+def choosen_word(system_word):
     predicted = predict_cost(system_word)
     lower_bound = predicted
     upper_bound = predicted + 10
@@ -51,9 +53,10 @@ def choose_word(system_word, lambda_sim=1.0):
     return int(best_id)
 
 def what_beats(system_word):
-    return choose_word(system_word, lambda_sim=1.0)
+    return choosen_word(system_word)
 
 def play_game(player_id):
+
     for round_id in range(1, NUM_ROUNDS+1):
         round_num = -1
         while round_num != round_id:
@@ -61,12 +64,15 @@ def play_game(player_id):
             print(response.json())
             sys_word = response.json()['word']
             round_num = response.json()['round']
+
             time.sleep(1)
+
         if round_id > 1:
             status = requests.get(status_url)
             print(status.json())
-        chosen_word = what_beats(sys_word)
-        data = {"player_id": player_id, "word_id": chosen_word, "round_id": round_id}
+
+        choosen_word = what_beats(sys_word)
+        data = {"player_id": player_id, "word_id": choosen_word, "round_id": round_id}
         response = requests.post(post_url, json=data)
         print(response.json())
 
