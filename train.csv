@@ -1,0 +1,660 @@
+id,word,cost
+1,Feather,1
+2,Coal,1
+3,Pebble,1
+4,Leaf,2
+5,Paper,2
+6,Rock,2
+7,Water,3
+8,Twig,3
+9,Sword,4
+10,Shield,4
+11,Gun,5
+12,Flame,5
+13,Rope,5
+14,Disease,6
+15,Cure,6
+16,Bacteria,6
+17,Shadow,7
+18,Light,7
+19,Virus,7
+20,Sound,8
+21,Time,8
+22,Fate,8
+23,Earthquake,9
+24,Storm,9
+25,Vaccine,9
+26,Logic,10
+27,Gravity,10
+28,Robots,10
+29,Stone,11
+30,Echo,11
+31,Thunder,12
+32,Karma,12
+33,Wind,13
+34,Ice,13
+35,Sandstorm,13
+36,Laser,14
+37,Magma,14
+38,Peace,14
+39,Explosion,15
+40,War,15
+41,Enlightenment,15
+42,Nuclear Bomb,16
+43,Volcano,16
+44,Whale,17
+45,Earth,17
+46,Moon,17
+47,Star,18
+48,Tsunami,18
+49,Supernova,19
+50,Antimatter,19
+51,Plague,20
+52,Rebirth,20
+53,Tectonic Shift,21
+54,Gamma-Ray Burst,22
+55,Human Spirit,23
+56,Apocalyptic Meteor,24
+57,Earth’s Core,25
+58,Neutron Star,26
+59,Supermassive Black Hole,35
+60,Entropy,45
+61,Car,10
+62,Bus,10
+63,Bicycle,10
+64,Motorcycle,10
+65,Truck,10
+66,Van,10
+67,Pickup,10
+68,Sedan,10
+69,SUV,10
+70,Convertible,10
+71,Coupe,10
+72,Hatchback,10
+73,Minivan,10
+74,Limo,10
+75,Taxi,10
+76,Arm,3
+77,Leg,3
+78,Head,3
+79,Eye,3
+80,Ear,3
+81,Nose,3
+82,Mouth,3
+83,Hand,3
+84,Foot,3
+85,Heart,5
+86,Brain,5
+87,Liver,5
+88,Kidney,5
+89,Stomach,5
+90,Lung,5
+91,Skin,5
+92,Back,5
+93,Chest,5
+94,Shoulder,5
+95,Knee,5
+96,Elbow,5
+97,Chair,4
+98,Table,4
+99,Bed,4
+100,Sofa,4
+101,Desk,4
+102,Lamp,4
+103,Cup,3
+104,Plate,3
+105,Fork,3
+106,Spoon,3
+107,Knife,3
+108,Bowl,3
+109,Mug,3
+110,Clock,5
+111,Phone,5
+112,Computer,5
+113,Laptop,5
+114,Monitor,5
+115,Mouse,5
+116,Keyboard,5
+117,Book,2
+118,Pen,2
+119,Pencil,2
+120,Paper,2
+121,Notebook,2
+122,Door,4
+123,Window,4
+124,Wall,4
+125,Floor,4
+126,Ceiling,4
+127,Carpet,4
+128,Mirror,4
+129,Trash,4
+130,Bin,4
+131,Bottle,4
+132,Bag,4
+133,Shoes,4
+134,Sock,4
+135,Shirt,4
+136,Pants,4
+137,Hat,4
+138,Coat,4
+139,Glove,4
+140,Scarf,4
+141,Belt,4
+142,Bread,2
+143,Milk,2
+144,Egg,2
+145,Cheese,2
+146,Butter,2
+147,Apple,2
+148,Banana,2
+149,Orange,2
+150,Grape,2
+151,Tomato,3
+152,Potato,3
+153,Onion,3
+154,Carrot,3
+155,Lettuce,3
+156,Cucumber,3
+157,Pepper,3
+158,Chicken,5
+159,Beef,5
+160,Pork,5
+161,Fish,5
+162,Magazine,3
+163,Newspaper,3
+164,Radio,5
+165,Television,5
+166,Camera,5
+167,Fridge,6
+168,Oven,6
+169,Microwave,6
+170,Toaster,6
+171,WashingMachine,7
+172,Dryer,7
+173,Fan,4
+174,Heater,4
+175,AirConditioner,4
+176,Car,10
+177,Bus,10
+178,Bicycle,10
+179,Motorcycle,10
+180,Truck,10
+181,Van,10
+182,Pickup,10
+183,Sedan,10
+184,SUV,10
+185,Convertible,10
+186,Coupe,10
+187,Hatchback,10
+188,Minivan,10
+189,Limo,10
+190,Taxi,10
+191,Arm,3
+192,Leg,3
+193,Head,3
+194,Eye,3
+195,Ear,3
+196,Nose,3
+197,Mouth,3
+198,Hand,3
+199,Foot,3
+200,Heart,5
+201,Brain,5
+202,Liver,5
+203,Kidney,5
+204,Stomach,5
+205,Lung,5
+206,Skin,5
+207,Back,5
+208,Chest,5
+209,Shoulder,5
+210,Knee,5
+211,Elbow,5
+212,Chair,4
+213,Table,4
+214,Bed,4
+215,Sofa,4
+216,Desk,4
+217,Lamp,4
+218,Cup,3
+219,Plate,3
+220,Fork,3
+221,Spoon,3
+222,Knife,3
+223,Bowl,3
+224,Mug,3
+225,Clock,5
+226,Phone,5
+227,Computer,5
+228,Laptop,5
+229,Monitor,5
+230,Mouse,5
+231,Keyboard,5
+232,Book,2
+233,Pen,2
+234,Pencil,2
+235,Paper,2
+236,Notebook,2
+237,Door,4
+238,Window,4
+239,Wall,4
+240,Floor,4
+241,Ceiling,4
+242,Carpet,4
+243,Mirror,4
+244,Trash,4
+245,Bin,4
+246,Bottle,4
+247,Bag,4
+248,Shoes,4
+249,Sock,4
+250,Shirt,4
+251,Pants,4
+252,Hat,4
+253,Coat,4
+254,Glove,4
+255,Scarf,4
+256,Belt,4
+257,Bread,2
+258,Milk,2
+259,Egg,2
+260,Cheese,2
+261,Butter,2
+262,Apple,2
+263,Banana,2
+264,Orange,2
+265,Grape,2
+266,Tomato,3
+267,Potato,3
+268,Onion,3
+269,Carrot,3
+270,Lettuce,3
+271,Cucumber,3
+272,Pepper,3
+273,Chicken,5
+274,Beef,5
+275,Pork,5
+276,Fish,5
+277,Magazine,3
+278,Newspaper,3
+279,Radio,5
+280,Television,5
+281,Camera,5
+282,Fridge,6
+283,Oven,6
+284,Microwave,6
+285,Toaster,6
+286,WashingMachine,7
+287,Dryer,7
+288,Fan,4
+289,Heater,4
+290,AirConditioner,4
+291,Car,10
+292,Bus,10
+293,Bicycle,10
+294,Motorcycle,10
+295,Truck,10
+296,Van,10
+297,Pickup,10
+298,Sedan,10
+299,SUV,10
+300,Convertible,10
+301,Coupe,10
+302,Hatchback,10
+303,Minivan,10
+304,Limo,10
+305,Taxi,10
+306,Arm,3
+307,Leg,3
+308,Head,3
+309,Eye,3
+310,Ear,3
+311,Nose,3
+312,Mouth,3
+313,Hand,3
+314,Foot,3
+315,Heart,5
+316,Brain,5
+317,Liver,5
+318,Kidney,5
+319,Stomach,5
+320,Lung,5
+321,Skin,5
+322,Back,5
+323,Chest,5
+324,Shoulder,5
+325,Knee,5
+326,Elbow,5
+327,Chair,4
+328,Table,4
+329,Bed,4
+330,Sofa,4
+331,Desk,4
+332,Lamp,4
+333,Cup,3
+334,Plate,3
+335,Fork,3
+336,Spoon,3
+337,Knife,3
+338,Bowl,3
+339,Mug,3
+340,Clock,5
+341,Phone,5
+342,Computer,5
+343,Laptop,5
+344,Monitor,5
+345,Mouse,5
+346,Keyboard,5
+347,Book,2
+348,Pen,2
+349,Pencil,2
+350,Paper,2
+351,Notebook,2
+352,Door,4
+353,Window,4
+354,Wall,4
+355,Floor,4
+356,Ceiling,4
+357,Carpet,4
+358,Mirror,4
+359,Trash,4
+360,Bin,4
+361,Bottle,4
+362,Bag,4
+363,Shoes,4
+364,Sock,4
+365,Shirt,4
+366,Pants,4
+367,Hat,4
+368,Coat,4
+369,Glove,4
+370,Scarf,4
+371,Belt,4
+372,Bread,2
+373,Milk,2
+374,Egg,2
+375,Cheese,2
+376,Butter,2
+377,Apple,2
+378,Banana,2
+379,Orange,2
+380,Grape,2
+381,Tomato,3
+382,Potato,3
+383,Onion,3
+384,Carrot,3
+385,Lettuce,3
+386,Cucumber,3
+387,Pepper,3
+388,Chicken,5
+389,Beef,5
+390,Pork,5
+391,Fish,5
+392,Magazine,3
+393,Newspaper,3
+394,Radio,5
+395,Television,5
+396,Camera,5
+397,Fridge,6
+398,Oven,6
+399,Microwave,6
+400,Toaster,6
+401,WashingMachine,7
+402,Dryer,7
+403,Fan,4
+404,Heater,4
+405,AirConditioner,4
+406,Car,10
+407,Bus,10
+408,Bicycle,10
+409,Motorcycle,10
+410,Truck,10
+411,Van,10
+412,Pickup,10
+413,Sedan,10
+414,SUV,10
+415,Convertible,10
+416,Coupe,10
+417,Hatchback,10
+418,Minivan,10
+419,Limo,10
+420,Taxi,10
+421,Arm,3
+422,Leg,3
+423,Head,3
+424,Eye,3
+425,Ear,3
+426,Nose,3
+427,Mouth,3
+428,Hand,3
+429,Foot,3
+430,Heart,5
+431,Brain,5
+432,Liver,5
+433,Kidney,5
+434,Stomach,5
+435,Lung,5
+436,Skin,5
+437,Back,5
+438,Chest,5
+439,Shoulder,5
+440,Knee,5
+441,Elbow,5
+442,Chair,4
+443,Table,4
+444,Bed,4
+445,Sofa,4
+446,Desk,4
+447,Lamp,4
+448,Cup,3
+449,Plate,3
+450,Fork,3
+451,Spoon,3
+452,Knife,3
+453,Bowl,3
+454,Mug,3
+455,Clock,5
+456,Phone,5
+457,Computer,5
+458,Laptop,5
+459,Monitor,5
+460,Mouse,5
+461,Keyboard,5
+462,Book,2
+463,Pen,2
+464,Pencil,2
+465,Paper,2
+466,Notebook,2
+467,Door,4
+468,Window,4
+469,Wall,4
+470,Floor,4
+471,Ceiling,4
+472,Carpet,4
+473,Mirror,4
+474,Trash,4
+475,Bin,4
+476,Bottle,4
+477,Bag,4
+478,Shoes,4
+479,Sock,4
+480,Shirt,4
+481,Pants,4
+482,Hat,4
+483,Coat,4
+484,Glove,4
+485,Scarf,4
+486,Belt,4
+487,Bread,2
+488,Milk,2
+489,Egg,2
+490,Cheese,2
+491,Butter,2
+492,Apple,2
+493,Banana,2
+494,Orange,2
+495,Grape,2
+496,Tomato,3
+497,Potato,3
+498,Onion,3
+499,Carrot,3
+500,Lettuce,3
+501,Cucumber,3
+502,Pepper,3
+503,Chicken,5
+504,Beef,5
+505,Pork,5
+506,Fish,5
+507,Magazine,3
+508,Newspaper,3
+509,Radio,5
+510,Television,5
+511,Camera,5
+512,Fridge,6
+513,Oven,6
+514,Microwave,6
+515,Toaster,6
+516,WashingMachine,7
+517,Dryer,7
+518,Fan,4
+519,Heater,4
+520,AirConditioner,4
+521,Car,10
+522,Bus,10
+523,Bicycle,10
+524,Motorcycle,10
+525,Truck,10
+526,Van,10
+527,Pickup,10
+528,Sedan,10
+529,SUV,10
+530,Convertible,10
+531,Coupe,10
+532,Hatchback,10
+533,Minivan,10
+534,Limo,10
+535,Taxi,10
+536,Arm,3
+537,Leg,3
+538,Head,3
+539,Eye,3
+540,Ear,3
+541,Nose,3
+542,Mouth,3
+543,Hand,3
+544,Foot,3
+545,Heart,5
+546,Brain,5
+547,Liver,5
+548,Kidney,5
+549,Stomach,5
+550,Lung,5
+551,Skin,5
+552,Back,5
+553,Chest,5
+554,Shoulder,5
+555,Knee,5
+556,Elbow,5
+557,Chair,4
+558,Table,4
+559,Bed,4
+560,Galaxy,24
+561,Nebula,22
+562,Quasar,26
+563,Black Hole,33
+564,White Dwarf,20
+565,Red Giant,30
+566,Blue Supergiant,35
+567,Hypernova,37
+568,Pulsar,22
+569,Magnetar,24
+570,Cosmic Storm,39
+571,Solar Flare,28
+572,Meteor Shower,26
+573,Aurora,24
+574,Eclipse,30
+575,Cosmic Rift,33
+576,Stellar Fusion,28
+577,Celestial Alignment,26
+578,Interstellar Wind,28
+579,Cosmic Symphony,33
+580,Celestial Event,30
+581,Event Horizon,35
+582,Intergalactic Void,37
+583,Cosmic Expansion,39
+584,Dark Matter,41
+585,Dark Energy,41
+586,Singularity,43
+587,Infinity,45
+588,Celestial Kingdom,39
+589,Time Warp,37
+590,Quantum Leap,39
+591,Dimensional Rift,41
+592,Cosmic Stormfront,37
+593,Galactic Core,35
+594,Black Dwarf,28
+595,Red Supergiant,37
+596,Stellar Remnant,30
+597,Intergalactic Merger,39
+598,Cosmic Beacon,33
+599,Nebular Cloud,28
+600,Solar Wind,26
+601,Planetary Nebula,30
+602,Celestial Dance,33
+603,Astronomical Alignment,35
+604,Cosmic Ballet,37
+605,Galactic Merger,39
+606,Universe,43
+607,Cosmic Wonder,41
+608,Infinite Loop,39
+609,Celestial Sphere,37
+610,Celestial Navigation,35
+611,Cosmic Microwave,33
+612,Interplanetary,30
+613,Cosmic Web,37
+614,Time Dilation,35
+615,Space-Time Continuum,39
+616,Multiverse,43
+617,Extraterrestrial,41
+618,Celestial Body,33
+619,Asteroid Belt,30
+620,Comet Tail,28
+621,Solar System,35
+622,Planetary Ring,33
+623,Orbit,26
+624,Satellite,28
+625,Celestial Mechanics,30
+626,Cosmic Ray,33
+627,Interstellar,35
+628,Cosmic Dust,28
+629,Starlight,26
+630,Galaxy Cluster,37
+631,Universal Expansion,39
+632,Cosmic Void,41
+633,Celestial Orbit,35
+634,Celestial Phenomenon,37
+635,Supermassive,43
+636,Galactic Halo,41
+637,Astronomical,39
+638,Cosmological,41
+639,Astrophysical,37
+640,Intergalactic,39
+641,Luminous,33
+642,Transcendent,35
+643,Celestial Occurrence,37
+644,Quantum Entanglement,43
+645,Spacetime Singularity,45
+646,Extragalactic,41
+647,Galactic Disk,39
+648,Interstellar Cloud,33
+649,Cosmic Explosion,43
+650,Interstellar Shock,37
+651,Celestial Cascade,35
+652,Galactic Tide,37
+653,Heavenly Storm,39
+654,Eternal Cosmos,45
+655,Infinite Cosmos,43
+656,Cosmic Revelation,41
+657,Cosmic Mystery,39
+658,Celestial Portal,41
+659,Dimensional Gate,43
