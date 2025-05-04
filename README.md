@@ -4,7 +4,7 @@
 
 This repository presents a solution to the [Words of Power Hackathon Challenge](https://soleadify.notion.site/Hackathon-Challenge-Words-of-Power-1a52a4d999ed8021bb92dde896a630a5), a text-based competitive game where players must outsmart a system by selecting counter-words that "beat" the system-generated words. Each word has an associated cost, and the goal is to minimize the total cost across five rounds.
 
-Our approach is **high-risk, high-reward**: the strategy leans heavily on selecting high-cost words that offer the **highest probability of winning**, minimizing penalties that would otherwise offset cheaper but riskier choices. This tradeoff ensures near-optimal performance in terms of total score.
+My approach is **high-risk, high-reward**: the strategy leans heavily on selecting high-cost words that offer the **highest probability of winning**, minimizing penalties that would otherwise offset cheaper but riskier choices. This tradeoff ensures near-optimal performance in terms of total score.
 
 ---
 
